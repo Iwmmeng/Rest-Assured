@@ -1,0 +1,19 @@
+<!--&lt;!&ndash;group运行可以在xml里面这样写。&ndash;&gt;-->
+<!--<groups>-->
+    <!--<define name="smoke-test">-->
+        <!--<include name="P0"></include>-->
+    <!--</define>-->
+
+    <!--<define name="full-test">-->
+        <!--<include name="P0"></include>-->
+        <!--<include name="P1"></include>-->
+    <!--</define>-->
+
+    <!--<run>-->
+        <!--<include name="smoke-test"></include>-->
+    <!--</run>-->
+<!--</groups>-->
+
+<!--<classes>-->
+<!--<class name="SeleniumTest"></class>-->
+<!--</classes>-->

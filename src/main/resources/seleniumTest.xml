@@ -1,0 +1,16 @@
+<!--创建一个TEST PLAN-->
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testNG">
+    <test name="Test">
+        <classes>
+            <class name="SeleniumTest"/>
+            <!--<class name="BeforeClass2"/>-->
+        </classes>
+
+    </test>
+</suite>
+<!--<listeners>-->
+<!--//这是你需要加的东西-->
+<!--<listener class-name="org.uncommons.reportng.HTMLReporter" />-->
+<!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />-->
+<!--</listeners>-->
