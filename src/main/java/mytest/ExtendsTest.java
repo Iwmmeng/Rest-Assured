@@ -1,3 +1,5 @@
+package mytest;
+
 public class ExtendsTest {
     public void run(){
         System.out.println("父类方法");

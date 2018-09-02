@@ -39,6 +39,8 @@ public class Android1 {
         driver.findElementById("register_phone_number").sendKeys("18910202406");
         driver.findElementById("register_code").sendKeys("18910202406");
 
+        System.out.println(driver.getPageSource());
+
     }
 
     @After
