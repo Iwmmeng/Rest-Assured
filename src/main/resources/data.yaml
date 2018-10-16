@@ -1,0 +1,6 @@
+- real1: 1
+  real2: 2
+  expect: "3"
+- real1: 3
+  real2: 3
+  expect: "9"
