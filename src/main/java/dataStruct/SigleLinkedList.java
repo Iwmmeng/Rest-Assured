@@ -1,7 +1,5 @@
 package dataStruct;
 
-import org.junit.Test;
-
 public class SigleLinkedList {
     private int size;
     private Node head;
@@ -9,10 +7,10 @@ public class SigleLinkedList {
         size=0;
         head=null;
     }
-     class Node{
-        private Object data;
+     class Node<T>{
+        private T data;
         private Node next;
-        public Node(Object data){
+        public Node(T data){
             this.data=data;
         }
     }
@@ -40,20 +38,21 @@ public class SigleLinkedList {
     //查找指定元素，找打了返回node，否则返回null
     public Node find(Object object){
         Node current = head;
-        int temp = size;
-        while (temp>0){
-            if(current.data==object){
+        while(current!=null){
+            if (current.data.equals(object)){
                 return current;
             }else {
                 current = current.next;
-                temp=temp-1;
             }
         }
         return null;
     }
-
-
-
-
-
+    //打印链表里面所有的节点
+    public void print(Node node){
+        while (node.next!=null){
+            System.out.println(node.data);
+            node = node.next;
+        }
+        System.out.println(node.data);
+    }
 }
