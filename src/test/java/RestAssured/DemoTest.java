@@ -1,9 +1,13 @@
 package RestAssured;
 
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+
+
+
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 public class DemoTest {
     @BeforeClass
@@ -11,7 +15,7 @@ public class DemoTest {
         System.out.println("before class");
     }
 
-    @Before
+    @BeforeMethod
     public void before(){
         System.out.println("before ");
     }
@@ -25,7 +29,7 @@ public class DemoTest {
         System.out.println("test2 ");
     }
 
-    @Before
+    @BeforeMethod
     public void after(){
         System.out.println("after ");
     }
@@ -34,7 +38,6 @@ public class DemoTest {
     public static void afterClass(){
         System.out.println("after class");
     }
-
 
 
 }

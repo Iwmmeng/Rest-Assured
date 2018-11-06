@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestAll]">
+  <parameter name="a" value="7"/>
+  <parameter name="b" value="2"/>
+  <test name="order(failed)">
+    <parameter name="a" value="7"/>
+    <parameter name="b" value="2"/>
+    <classes>
+      <class name="RestAssured.TestOrder">
+        <methods>
+          <include name="testMakeEmptyOrder"/>
+          <include name="testUpdateOrder"/>
+          <include name="testMakeOrder"/>
+          <include name="testFindOrder"/>
+        </methods>
+      </class> <!-- RestAssured.TestOrder -->
+    </classes>
+  </test> <!-- order(failed) -->
+</suite> <!-- Failed suite [TestAll] -->

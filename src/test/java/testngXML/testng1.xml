@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll">
+    <parameter name="a" value="${a}"/>
+    <parameter name="b" value="${b}"/>
+    <test name="order">
+        <classes>
+            <class name="RestAssured.TestConfig"/>
+            <class name="RestAssured.TestOrder">
+                <!--<methods>-->
+                <!--<include name="testMakeOrder" />-->
+                <!--<include name="testUpdateOrder" />-->
+                <!--
+                    <exclude name="testMakeOrder" />
+                 -->
+                <!--</methods>-->
+            </class>
+        </classes>
+    </test>
+
+</suite>

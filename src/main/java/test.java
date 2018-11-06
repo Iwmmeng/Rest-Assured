@@ -6,7 +6,6 @@ import java.util.Map;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.junit.Test;
 //import static io.restassured.matcher.RestAssuredMatchers.*;
 //import static io.restassured.path.json.JsonPath.from;
 //import static org.hamcrest.Matchers.*;
@@ -46,7 +45,7 @@ public class test {
 //	}
 	
 	
-	@Test
+//	@Test
 	public void getParam1() {
 		Map<String, String> parameters = new HashMap<String, String>();
 		 parameters.put("limit", "1");

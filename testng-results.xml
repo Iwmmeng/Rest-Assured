@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="31" started-at="2018-11-06T10:44:40Z" finished-at="2018-11-06T10:44:40Z">
+    <groups>
+      <group name="orderBo">
+        <method signature="TestOrder.testFindOrder()[pri:0, instance:RestAssured.TestOrder@90f6bfd]" name="testFindOrder" class="RestAssured.TestOrder"/>
+        <method signature="TestOrder.testMakeEmptyOrder()[pri:0, instance:RestAssured.TestOrder@90f6bfd]" name="testMakeEmptyOrder" class="RestAssured.TestOrder"/>
+        <method signature="TestOrder.testMakeOrder()[pri:0, instance:RestAssured.TestOrder@90f6bfd]" name="testMakeOrder" class="RestAssured.TestOrder"/>
+        <method signature="TestOrder.testUpdateOrder()[pri:0, instance:RestAssured.TestOrder@90f6bfd]" name="testUpdateOrder" class="RestAssured.TestOrder"/>
+      </group> <!-- orderBo -->
+      <group name="save">
+        <method signature="TestOrder.testMakeEmptyOrder()[pri:0, instance:RestAssured.TestOrder@90f6bfd]" name="testMakeEmptyOrder" class="RestAssured.TestOrder"/>
+        <method signature="TestOrder.testMakeOrder()[pri:0, instance:RestAssured.TestOrder@90f6bfd]" name="testMakeOrder" class="RestAssured.TestOrder"/>
+      </group> <!-- save -->
+    </groups>
+    <test name="order" duration-ms="31" started-at="2018-11-06T10:44:40Z" finished-at="2018-11-06T10:44:40Z">
+      <class name="RestAssured.TestOrder">
+        <test-method status="PASS" signature="testFindOrder()[pri:0, instance:RestAssured.TestOrder@90f6bfd]" name="testFindOrder" duration-ms="1" started-at="2018-11-06T18:44:40Z" finished-at="2018-11-06T18:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindOrder -->
+        <test-method status="PASS" signature="testMakeEmptyOrder()[pri:0, instance:RestAssured.TestOrder@90f6bfd]" name="testMakeEmptyOrder" duration-ms="1" started-at="2018-11-06T18:44:40Z" finished-at="2018-11-06T18:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMakeEmptyOrder -->
+        <test-method status="PASS" signature="testMakeOrder()[pri:0, instance:RestAssured.TestOrder@90f6bfd]" name="testMakeOrder" duration-ms="0" started-at="2018-11-06T18:44:40Z" finished-at="2018-11-06T18:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMakeOrder -->
+        <test-method status="PASS" signature="testUpdateOrder()[pri:0, instance:RestAssured.TestOrder@90f6bfd]" name="testUpdateOrder" duration-ms="1" started-at="2018-11-06T18:44:40Z" finished-at="2018-11-06T18:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateOrder -->
+      </class> <!-- RestAssured.TestOrder -->
+      <class name="RestAssured.TestConfig">
+        <test-method status="PASS" signature="testBeforeSuite(int, int)[pri:0, instance:RestAssured.TestConfig@4157f54e]" name="testBeforeSuite" is-config="true" duration-ms="14" started-at="2018-11-06T18:44:40Z" finished-at="2018-11-06T18:44:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeSuite -->
+        <test-method status="PASS" signature="testBeforeTest()[pri:0, instance:RestAssured.TestConfig@4157f54e]" name="testBeforeTest" is-config="true" duration-ms="0" started-at="2018-11-06T18:44:40Z" finished-at="2018-11-06T18:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeTest -->
+        <test-method status="PASS" signature="testAfterTest()[pri:0, instance:RestAssured.TestConfig@4157f54e]" name="testAfterTest" is-config="true" duration-ms="3" started-at="2018-11-06T18:44:40Z" finished-at="2018-11-06T18:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterTest -->
+        <test-method status="PASS" signature="testAfterSuite()[pri:0, instance:RestAssured.TestConfig@4157f54e]" name="testAfterSuite" is-config="true" duration-ms="0" started-at="2018-11-06T18:44:40Z" finished-at="2018-11-06T18:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterSuite -->
+      </class> <!-- RestAssured.TestConfig -->
+    </test> <!-- order -->
+  </suite> <!-- TestAll -->
+</testng-results>
